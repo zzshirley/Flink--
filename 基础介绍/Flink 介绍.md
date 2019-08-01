@@ -46,3 +46,5 @@ Flink对持续的批量处理和流式处理都提供了良好的支持。典型
 > 很多常见的数据转换和增强操作可以利用 Flink 的 SQL 接口（或 Table API）及用户自定义函数解决。
 
 应用实例有搜索引擎推荐、实时数仓。
+
+### 同步个人语雀平台 https://www.yuque.com/nicaishidoudou/qzbgwy
