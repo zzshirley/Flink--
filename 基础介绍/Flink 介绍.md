@@ -47,4 +47,4 @@ Flink对持续的批量处理和流式处理都提供了良好的支持。典型
 
 应用实例有搜索引擎推荐、实时数仓。
 
-### 同步个人语雀平台 https://www.yuque.com/nicaishidoudou/qzbgwy
+### 同步 https://www.yuque.com/nicaishidoudou/qzbgwy
