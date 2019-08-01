@@ -1,6 +1,6 @@
 # Flink 介绍
 
-![0717Flink基础](/Users/xiaotong/Documents/Digital_China/日报/0717Flink基础.png)
+<img src="https://github.com/zzshirley/Flink--/blob/master/基础介绍/0717Flink基础.png" style="zoom:50%">
 
 ### 资料来源
 
@@ -21,6 +21,7 @@
 - 流处理的基本组件：流（有界流和无界流）、状态（Flink中的first-class
 citizen）、时间（Event Time / Processing Time / Ingestion Time）
 - 分层API：根据抽象程度分层，提供了三种不同API ，由上至下抽象程度降低，表达能力增强。如ProcessFunction 层 API 的表达能力非常强，可以进行多种灵活方便的操作，但抽象能力也相对越小。
+<img src="https://github.com/zzshirley/Flink--/blob/master/基础介绍/Flink分层API.png" style="zoom:50%">
 
 #### 运维（待完善）
 
@@ -34,17 +35,14 @@ citizen）、时间（Event Time / Processing Time / Ingestion Time）
 
 典型的应用实例有反欺诈、异常检测、业务流程报警等。
 
-![屏幕快照 2019-07-17 下午5.38.33](/Users/xiaotong/Desktop/屏幕快照 2019-07-17 下午5.38.33.png)
 
 #### 数据分析应用
 Flink对持续的批量处理和流式处理都提供了良好的支持。典型的应用实例有电信网络质量监控、实时大屏、实时报表等。
 
-![屏幕快照 2019-07-17 下午5.49.00](/Users/xiaotong/Desktop/屏幕快照 2019-07-17 下午5.49.00.png)
+
 
 #### 数据管道应用
 
 > 很多常见的数据转换和增强操作可以利用 Flink 的 SQL 接口（或 Table API）及用户自定义函数解决。
 
 应用实例有搜索引擎推荐、实时数仓。
-
-![屏幕快照 2019-07-17 下午5.53.13](/Users/xiaotong/Desktop/屏幕快照 2019-07-17 下午5.53.13.png)
